@@ -3,3 +3,9 @@ paramiko==2.1.2
 slackclient==1.0.5
 elasticsearch==2.3.0
 selenium==2.44.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
